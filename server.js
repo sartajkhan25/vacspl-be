@@ -1,12 +1,12 @@
 const express = require("express");
 const dotenv = require("dotenv").config();
-const connectDb = require("./configs/dbConnection")
+// const connectDb = require("./configs/dbConnection")
 const errorHandler = require("./middlewares/errorHandler")
 // const imLeadsCron  = require('./cron/imLeadsCron')
 var cors = require('cors')
 
 
-connectDb()
+// connectDb()
 const app = express();
 
 const port = process.env.PORT || 5000;
@@ -32,10 +32,10 @@ app.use((req, res, next) => {
     }
   });
 app.use("/", require("./routes/homeRoute"))
-app.use("/api/quotation", require("./routes/quotationRoutes"))
-app.use("/api/client", require("./routes/clientRoute"))
-app.use("/api/reports", require("./routes/reportRoute"))
-app.use("/api/leads", require("./routes/leadsRoute"))
+// app.use("/api/quotation", require("./routes/quotationRoutes"))
+// app.use("/api/client", require("./routes/clientRoute"))
+// app.use("/api/reports", require("./routes/reportRoute"))
+// app.use("/api/leads", require("./routes/leadsRoute"))
 app.use("/api/employee", require("./routes/employeeRoute"))
 app.get('/healthcheck', (req, res) => res.send('Hello World Version5!'))
 app.use(errorHandler)
