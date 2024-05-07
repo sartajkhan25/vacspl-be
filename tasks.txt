@@ -1,0 +1,212 @@
+================ Done ====================
+Naukri email to candidates
+
+================ Working ====================
+Naukri calls to candidates
+Box - call 
+save card in AWS
+================ To Be Done, ASAP ====================
+
+================ Planned ====================
+Emails crons to clients
+
+
+https://mapi.indiamart.com/wservce/crm/crmListing/v2/?glusr_crm_key=
+mRyzEbpv4X/ESPes73CO7luIplXMmzk=
+&start_time=22-12-2023
+&end_time=22-12-2023
+
+
+crone:
+    get all leads
+    sort by time
+    pick the oldest date
+    -1 in oldest date-> start data
+
+
+vikas--
+tally-0
+excel-8
+====================hemant----------------
+toa-4-5
+tall-4-5-> 8
+excel- 2-3-> 6
+
+cur-28
+exp-30
+
+tues-
+
+
+VALUE ADDED COATING SOLUTION PVT. LTD.
+
+Websites:
+https://www.coating-solution.com/
+https://optifinish.in/
+
+Head office: 
+515, Devika Tower, Chandra Nagar,
+GHAZIABAD - 201010  INDIA
+https://g.page/VACSPL-Office?share
+
+Plant: K-288, Site-V, Kasna, Greater Noida, Uttar Pradesh 201310
+https://g.page/VACSPL?share
+
+
+
+
+Account people
+PF
+varity of Leaves
+    Salary deducations
+Sunday Adjusted on absense
+
+
+
+===========================hostinger=============================
+https://www.youtube.com/watch?v=ZKaWTK91ECQ
+
+ssh root@93.127.195.204
+Sartaj12#
+
+IP address-93.127.195.204
+Status-Running
+VPS uptime-Waiting for the data
+Current OS-Ubuntu 24.04
+Location-India
+Node-in-mum-pve-node64
+
+ns1.dns-parking.com
+ns2.dns-parking.com
+
+==================creating environment=====================
+ssh root@93.127.195.204
+Sartaj12#
+
+
+install nodejs on server
+
+apt-get update 
+sudo apt install git
+curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+sudo bash /tmp/nodesource_setup.sh
+sudo apt install nodejs
+node -v
+npm -v
+
+---- lets create folder for vacspl project--------
+mkdir -p ~/apps/vacspl/repo
+mkdir -p ~/apps/vacspl/dest  -> destination for production vesrtion of app
+cd ~/apps/vacspl/repo
+git --bare init -> create a git repository -> bare to creatre ventral git repository
+
+nano hooks/post-receive 
+
+ cd ../dest
+ nano .env -> mongo url, port
+ --- confugre apache----------
+ sudo a2enmod proxy proxy_http rewriteheaders expires
+    if error comes: sudo: a2enmod: command not found
+    sudo apt update
+    sudo apt install apache2
+
+last line- systemctl restart apache2
+
+-- need to create apache virtual host host file--
+cd  ../dest
+sudo nano /etc/apache2/sites-available/vacspl.in.conf
+add this in file:
+        <VirtualHost *:80>
+            ServerName vacspl.in
+            ServerAlias www.vacspl.in
+
+            
+            # Enable proxy and proxy_http modules
+            ProxyRequests Off
+            ProxyPreserveHost On
+            ProxyVia Full
+        
+            <Proxy *>
+            Require all granted
+            </Proxy>
+
+            ProxyPass / http://127.0.0.1:5000/
+            ProxyPassReverse / http://127.0.0.1:5000/
+
+            # Other optional directives
+        
+        </VirtualHost>
+
+-- enabline a new site and disabling the default apache site -
+
+root@srv521382:~/apps/vacspl/dest# sudo a2dissite 000-default  >> to disable
+
+sudo a2ensite vacspl.in.conf --> enable new domain configuration
+
+--now restart apache server--
+ sudo systemctl reload apache2
+
+ -- SSL---
+ lets encrypt free ssl service
+
+
+ start by instalaing certbot package
+root@srv521382:~/apps/vacspl/dest# sudo apt install certbot python3-certbot-apache
+
+ sudo certbot -d vacspl.in -d www.vacspl.in --apache --agree-tos -m sartaj2493@gmail.com --no-eff-email --redirect
+ ->>>>>>>>comes last message as
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ for auto renew the SSL
+ at root@srv521382:~/apps/vacspl/dest# 
+ sudo certbot renew --dry-run
+ >>>message>>
+ Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processing /etc/letsencrypt/renewal/vacspl.in.conf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Account registered.
+Simulating renewal of an existing certificate for vacspl.in and www.vacspl.in
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Congratulations, all simulated renewals succeeded: 
+  /etc/letsencrypt/live/vacspl.in/fullchain.pem (success)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+----------next step-insall forever --------------
+npm install forever -g
+forever start ---uid="vacspl" --sourceDir="/root/apps/vacspl/dest/" backend/server.js
+
+-----now working on code , adding git repo, for now i am creating a public repo, to avoid issues-----
+
+
+
+
+
+
+------------add this in the file------------------------
+#!/bin/bash
+echo 'post-receive: Triggered.'
+cd /apps/amazona/dest/
+echo 'post-receive: git check out...'
+git --git-dir=/root/apps/vacspl/repo/ --work-tree=/root/apps/vacspl/dest/ checkout master -f
+echo 'post-receive: npm install...'
+npm install
+npm run build
+forever restart vacspl
+--------------------------------------------------------
+--now change permissoon--for os to able to run this file
+chmod ug+x hooks/post-receive
+
+
+
+================mongo=====================
+new user
+vacspl-hostinger
+Qiv5CI6yp01k3KcE
+
+mongodb+srv://vacspl-hostinger:Qiv5CI6yp01k3KcE@cluster0.komopxg.mongodb.net/test?retryWrites=true&w=majority

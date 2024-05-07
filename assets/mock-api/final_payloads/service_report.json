@@ -1,0 +1,195 @@
+
+{
+    "client_name": "Test Company",
+    "client_address": "Test Company",
+    "client_email": "test@test.com",
+    "contact_person_name": "9983332232",
+    "contact_person_designation": "Test Company",
+    "contact_person_phone": "7878787878",
+    "contact_person_email": "test@test.com",
+    "service_engineer_name": "Test Company",
+    "service_engineer_contact_number": "",
+    "service_engineer_email": "harish@optifinish.in",
+    "date_of_service": "02-12-2023",
+    "service_report": [
+        {
+            "componentName": "Inspecting Filter panel in running condition.",
+            "componentSlug": "picture-of-after-filter-panel-in-running-condition",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 1
+        },
+        {
+            "componentName": "RYB ampere reading in After filter panel.",
+            "componentSlug": "ryb-ampere-reading-in-after-filter-panel",
+            "componentId": null,
+            "componentIsWorking": false,
+            "serviceCheckId": 2,
+            "comment": ""
+        },
+        {
+            "componentName": "Inspecting Cartridge filters.",
+            "componentSlug": "pictures-of-cartridge-filters",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 3,
+            "comment": "test comment"
+        },
+        {
+            "componentName": "Inspecting top cabin in after filter.",
+            "componentSlug": "pictures-of-top-cabin-in-after-filter",
+            "componentId": null,
+            "componentIsWorking": false,
+            "serviceCheckId": 4,
+            "comment": "test comment"
+        },
+        {
+            "componentName": "Inspecting Exaust filters in after filter.",
+            "componentSlug": "pictures-of-exaust-filters-in-after-filter",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 5
+        },
+        {
+            "componentName": "Transfer pump venturey checking in Cyclone.",
+            "componentSlug": "transfer-pump-venturey-checking-in-cyclone",
+            "componentId": null,
+            "componentIsWorking": false,
+            "serviceCheckId": 6,
+            "comment": ""
+        },
+        {
+            "componentName": "Cyclone checking from inside.",
+            "componentSlug": "cyclone-checking-from-inside",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 7
+        },
+        {
+            "componentName": "Powder transfer hose(Cyclone to Sieve) condition.",
+            "componentSlug": "powder-transfer-hose-cyclone-to-sieve-condition",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 8
+        },
+        {
+            "componentName": "Bellow Condition.",
+            "componentSlug": "bellow-condition",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 9
+        },
+        {
+            "componentName": "Inspecting Sieve condition in powder sieve.",
+            "componentSlug": "sieve-condition-in-powder-sieve",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 10
+        },
+        {
+            "componentName": "Inspecting Hopper fluidising tile condition.",
+            "componentSlug": "hopper-fluidising-tile-condition",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 11
+        },
+        {
+            "componentName": "Inspecting Injector inside inspection.",
+            "componentSlug": "injector-inside-inspection",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 12
+        },
+        {
+            "componentName": "Injectors PU pipes inspection.",
+            "componentSlug": "injectors-pu-pipes-inspection",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 13
+        },
+        {
+            "componentName": "Inspecting Injector fitment in injector holder.",
+            "componentSlug": "injector-fitment-in-injector-holder",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 14
+        },
+        {
+            "componentName": "Inspecting Powder tubes in injector(inside).",
+            "componentSlug": "powder-tubes-in-injector-inside",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 15
+        },
+        {
+            "componentName": "Inspecting Powder hose condition(Injector to Gun).",
+            "componentSlug": "powder-hose-condition-injector-to-gun",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 16
+        },
+        {
+            "componentName": "Inspecting Cascades efficiency.",
+            "componentSlug": "cascades-efficiency-checking",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 17
+        },
+        {
+            "componentName": "Inspecting All Electrode holder.",
+            "componentSlug": "all-electrode-holder-checking",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 18
+        },
+        {
+            "componentName": "Inspecting All nozzles.",
+            "componentSlug": "all-nozzle-checking",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 19
+        },
+        {
+            "componentName": "Inspecting All ventury checking (wear out pattern) in injectors.",
+            "componentSlug": "all-ventury-checking-wear-out-pattern-in-injectors",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 20
+        },
+        {
+            "componentName": "Inspecting Booth condition (out side & inside).",
+            "componentSlug": "booth-condition-outside-and-inside",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": null
+        },
+        {
+            "componentName": "Inspecting Light condition in booth.",
+            "componentSlug": "light-condition-in-booth",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": null
+        },
+        {
+            "componentName": "Inspecting Air velocity at Booth cross section(at least 5 point).",
+            "componentSlug": "air-velocity-at-booth-cross-section-at-least-5-point",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 21
+        },
+        {
+            "componentName": "Inspecting Hose & PU pipe routing condition.",
+            "componentSlug": "hose-and-pu-pipe-routing-condition",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 22
+        },
+        {
+            "componentName": "inspection-the-reciprocators",
+            "componentSlug": "Inspection the reciprocators",
+            "componentId": null,
+            "componentIsWorking": true,
+            "serviceCheckId": 23
+        }
+    ]
+}

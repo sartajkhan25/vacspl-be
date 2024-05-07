@@ -1,0 +1,400 @@
+[
+    {
+        "SN": 1,
+        "serviceCheckId": 1,
+        "inspection_section": "Inspecting Filter panel in running condition.",
+        "key": "picture-of-after-filter-panel-in-running-condition",
+        "current_issue": null,
+        "future_issue": [
+            "Cartrage filter are chocked",
+            "Leakage in cartrage Filter",
+            "Poor Sucktion"
+        ],
+        "activity_need": [
+            "Compressed Air Quality",
+            "Free of oil and moister Content"
+        ],
+        "required_components": [
+            "Change the Cartrage Filter"
+        ]
+    },
+    {
+        "SN": 2,
+        "serviceCheckId": 2,
+        "inspection_section": "RYB ampere reading in After filter panel.",
+        "key": "ryb-ampere-reading-in-after-filter-panel",
+        "current_issue": null,
+        "future_issue": [
+            "Cartrage filter are chocked",
+            "Poor Sucktion",
+            "Problem in Power Supply to Electric Motor"
+        ],
+        "activity_need": [
+            "Input supply be checked",
+            "Controll panel should be checked"
+        ],
+        "required_components": [
+            "Electric Contractor ",
+            "MPCV",
+            "etc"
+        ]
+    },
+    {
+        "SN": 3,
+        "serviceCheckId": 3,
+        "inspection_section": "Inspecting Cartridge filters.",
+        "key": "pictures-of-cartridge-filters",
+        "current_issue": null,
+        "future_issue": [
+            "Cartrage filter are chocked",
+            "Leakage in cartrage Filter",
+            "Poor Sucktion"
+        ],
+        "activity_need": [
+            "Compressed Air Quality",
+            "Free of oil and moister Content"
+        ],
+        "required_components": [
+            "Change the Cartrage Filter"
+        ]
+    },
+    {
+        "SN": 4,
+        "serviceCheckId": 4,
+        "inspection_section": "Inspecting top cabin in after filter.",
+        "key": "pictures-of-top-cabin-in-after-filter",
+        "current_issue": [
+            "There is a leakage in Cartrage filter"
+        ],
+        "future_issue": [
+            "Poor Suction",
+            "Motor can be burned"
+        ],
+        "activity_need": [
+            "No Activity can make it better"
+        ],
+        "required_components": [
+            "Immidiately Change the Cartrage Filter"
+        ]
+    },
+    {
+        "SN": 5,
+        "serviceCheckId": 5,
+        "inspection_section": "Inspecting Exaust filters in after filter.",
+        "key": "pictures-of-exaust-filters-in-after-filter",
+        "current_issue": null,
+        "future_issue": [
+            "System can be tripped or Shutdown",
+            "Suction Poop"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the exaust filter"
+        ]
+    },
+    {
+        "SN": 6,
+        "serviceCheckId": 6,
+        "inspection_section": "Transfer pump venturey checking in Cyclone.",
+        "key": "transfer-pump-venturey-checking-in-cyclone",
+        "current_issue": null,
+        "future_issue": [
+            "Powder transfer will affect",
+            "More powder in duct collector",
+            "Powder wasteage increased"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the ventury"
+        ]
+    },
+    {
+        "SN": 7,
+        "serviceCheckId": 7,
+        "inspection_section": "Cyclone checking from inside.",
+        "key": "cyclone-checking-from-inside",
+        "current_issue": null,
+        "future_issue": [
+            "Cantamination in Recycle powder"
+        ],
+        "activity_need": [
+            "Clean the Cyclone by Cleaning renavles"
+        ],
+        "required_components": [
+            null
+        ]
+    },
+    {
+        "SN": 8,
+        "serviceCheckId": 8,
+        "inspection_section": "Powder transfer hose(Cyclone to Sieve) condition.",
+        "key": "powder-transfer-hose-cyclone-to-sieve-condition",
+        "current_issue": null,
+        "future_issue": [
+            "It affect the powder Transfer",
+            "Cantamination in Recycle powder"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Chnage the hose"
+        ]
+    },
+    {
+        "SN": 9,
+        "serviceCheckId": 9,
+        "inspection_section": "Bello Condition.",
+        "key": "bellow-condition",
+        "current_issue": null,
+        "future_issue": [
+            "Suction Problem"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change Bello"
+        ]
+    },
+    {
+        "SN": 10,
+        "serviceCheckId": 10,
+        "inspection_section": "Inspecting Sieve condition in powder sieve.",
+        "key": "sieve-condition-in-powder-sieve",
+        "current_issue": null,
+        "future_issue": [
+            "Dust can be Trasfer in the Hopper Powder"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Replace the sieve"
+        ]
+    },
+    {
+        "SN": 11,
+        "serviceCheckId": 11,
+        "inspection_section": "Inspecting Hopper fluidising tile condition.",
+        "key": "hopper-fluidising-tile-condition",
+        "current_issue": null,
+        "future_issue": [
+            "Affect the powder fluidation"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the fludisine tile"
+        ]
+    },
+    {
+        "SN": 12,
+        "serviceCheckId": 12,
+        "inspection_section": " Inspecting Injector inside inspection.",
+        "key": "injector-inside-inspection",
+        "current_issue": null,
+        "future_issue": [
+            "Affect the powder output of the gun"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the component of the injector"
+        ]
+    },
+    {
+        "SN": 13,
+        "serviceCheckId": 13,
+        "inspection_section": "Injectors PU pipes inspection.",
+        "key": "injectors-pu-pipes-inspection",
+        "current_issue": null,
+        "future_issue": [
+            "Affect the powder output of the gun"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the PU Pipe"
+        ]
+    },
+    {
+        "SN": 14,
+        "serviceCheckId": 14,
+        "inspection_section": "Inspecting Injector fitment in injector holder.",
+        "key": "injector-fitment-in-injector-holder",
+        "current_issue": null,
+        "future_issue": [
+            "Affect the powder output of the gun"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the oring of the injector"
+        ]
+    },
+    {
+        "SN": 15,
+        "serviceCheckId": 15,
+        "inspection_section": "Inspecting Powder tubes in injector(inside).",
+        "key": "powder-tubes-in-injector-inside",
+        "current_issue": null,
+        "future_issue": [
+            "Affect the powder output of the gun"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the powder tube"
+        ]
+    },
+    {
+        "SN": 16,
+        "serviceCheckId": 16,
+        "inspection_section": "Inspecting Powder hose condition(Injector to Gun).",
+        "key": "powder-hose-condition-injector-to-gun",
+        "current_issue": null,
+        "future_issue": [
+            "Affect the powder output of the gun",
+            "Contamination of the powder"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the hose"
+        ]
+    },
+    {
+        "SN": 17,
+        "serviceCheckId": 17,
+        "inspection_section": "Inspecting Cascades efficiency.",
+        "key": "cascades-efficiency-checking",
+        "current_issue": null,
+        "future_issue": [
+            "First pass efficiency will drop.",
+            ""
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "replace cascade"
+        ]
+    },
+    {
+        "SN": 18,
+        "serviceCheckId": 18,
+        "inspection_section": "Inspecting All Electrode holder.",
+        "key": "all-electrode-holder-checking",
+        "current_issue": null,
+        "future_issue": [
+            "First pass efficiency will drop.",
+            "Inconsistancy in flim thickness",
+            ""
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change electrod"
+        ]
+    },
+    {
+        "SN": 19,
+        "serviceCheckId": 19,
+        "inspection_section": "Inspecting All nozzles.",
+        "key": "all-nozzle-checking",
+        "current_issue": null,
+        "future_issue": [
+            "Formation of Powder Cloud",
+            "Flim will be bad"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change nozzle"
+        ]
+    },
+    {
+        "SN": 20,
+        "serviceCheckId": 20,
+        "inspection_section": "Inspecting All ventury checking (wear out pattern) in injectors.",
+        "key": "all-ventury-checking-wear-out-pattern-in-injectors",
+        "current_issue": null,
+        "future_issue": [
+            "Less Powder Output",
+            "Low flim Thoickness"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change ventury"
+        ]
+    },
+    {
+        "SN": 21,
+        "serviceCheckId": 21,
+        "inspection_section": " Inspecting Air velocity at Booth cross section(at least 5 point).",
+        "key": "air-velocity-at-booth-cross-section-at-least-5-point",
+        "current_issue": null,
+        "future_issue": [
+            "Poor Suction",
+            "Motor can be burned",
+            "Cartrage Filter Choke",
+            "Exaust Filter Choke"
+        ],
+        "activity_need": [
+            "Clean The cartrage filter",
+            "Clean Exaust filter",
+            "Check the motor RPM"
+        ],
+        "required_components": [
+            "Change The cartrage filter",
+            "Chnage Exaust filter"
+        ]
+    },
+    {
+        "SN": 22,
+        "serviceCheckId": 22,
+        "inspection_section": "Inspecting Hose & PU pipe routing condition.",
+        "key": "hose-and-pu-pipe-routing-condition",
+        "current_issue": null,
+        "future_issue": [
+            "Injector may be choked"
+        ],
+        "activity_need": [
+            null
+        ],
+        "required_components": [
+            "Change the reprocator like belt etc"
+        ]
+    },
+    {
+        "SN": 23,
+        "serviceCheckId": 23,
+        "inspection_section": "Inspection the reciprocators",
+        "key": "Inspection the reciprocators",
+        "current_issue": "Noise in reciprocator movement",
+        "future_issue": [
+            "Resiprocator may be suchdown"
+        ],
+        "activity_need": [
+            "Check the Belt and motors"
+        ],
+        "required_components": [
+            "Chnage the belt or Motor"
+        ]
+    }
+]

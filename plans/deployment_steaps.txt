@@ -1,0 +1,16 @@
+https://www.youtube.com/watch?v=_U0pTlpyMGg
+We need cloud service for this.
+Examples:::
+    1. aws
+    2. heroku.com -> NOW AQUIRED BY SALES FORCES-> now paid
+    3. railway.app
+
+Note: by running export variable = sartaj, now it is like you have declayerd variable = sartaj in .env file, now the variable is avaialble in this environment
+
+
+mongo info@coagting-solution.com-> bu google signin
+
+MOngo db 
+Cluster0
+username-> sartaj
+password:sartajvacspl

@@ -1,0 +1,56 @@
+{
+    "client_name": "Test Company",
+    "client_slug": "havels",
+    "client_primary_email": "test@test.com",
+    "client_phone_code": "91",
+    "client_primary_phone": "8734827355",
+    "client_address": {
+        "client_city": "Dhemaji",
+        "client_state": "Assam",
+        "client_country": "india",
+        "client_full_address": "Test Company",
+        "client_country_code": "IND"
+    },
+    "contact_person": [
+        {
+            "contact_person_name": "Test Company",
+            "contact_person_email": "test@test.com",
+            "contact_person_phone": "3872857345",
+            "contact_person_designation": "Test Company"
+        }
+    ],
+    "quotations": [
+        {
+            "quotation_amt": 379996,
+            "quotation_id": 124,
+            "quotation_date": "2023-12-02",
+            "product_type": "Powder Coating Gun",
+            "product_type_slug": "powder_coating_gun",
+            "employee_name": "Harish Sharma",
+            "employee_id": "VACSPL001",
+            "current_status": "Quotation Sent",
+            "components": [
+                {
+                    "item_slug": "powder_coating_gun",
+                    "item_name": "Powder Coating Gun",
+                    "item_unit_price": 189998,
+                    "item_quantity": 2,
+                    "item_total_price": 379996
+                }
+            ]
+        }
+    ],
+    "created_by": {
+        "employee_name": "Harish Sharma",
+        "employee_id": "VACSPL001"
+    },
+    "employee_updates": [
+        {
+            "epmloyee_name": "Harish Sharma",
+            "epmloyee_id": "VACSPL001",
+            "date": "2023-12-02",
+            "comment": "Quotation Created"
+        }
+    ]
+}
+

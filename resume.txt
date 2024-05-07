@@ -1,0 +1,43 @@
+3 years of experience in ReactJS, JavaScript, NodeJS
+
+
+Software Engineer 
+Insurance Dekho
+
+Efficient Delivery of KYC Module in Motor Insurance Journey:
+Successfully delivered the KYC module within stringent timelines, streamlining product journeys and yielding positive impacts on associated products.
+Innovative Proposal Form - Life Insurance Journey:
+Pioneered a streamlined one-page journey in the life insurance module, simplifying user experiences and significantly boosting life insurance policies.
+Optimized Core Web Vitals:
+Spearheaded Core Web Vitals optimization through precise Webpack fine-tuning. The strategic splitting of bundle files into smaller chunks resulted in substantially enhanced system performance.
+Effective CDN Implementation (Akamai):
+Implemented an effective CDN (Akamai) for SEO pages, elevating platform visibility and improving overall accessibility
+
+
+Software Engineer
+Skuad.io
+
+Product Development and Launch:
+Orchestrated the end-to-end development lifecycle of a groundbreaking investment product using React, contributing significantly to the company's market expansion.
+Product Management-Frontend:
+Governed a portfolio of three distinct products—life insurance, term insurance, and investment—implementing ReactJS-based FrontEnd to optimize performance and ensure seamless user experiences.
+Innovative Feature Development:
+Architected and deployed a highly efficient Document Uploader Feature using React, facilitating streamlined document management across the entire product suite.
+Introduced and integrated React-powered Calculators, AB Testing, and more useful features empowering users with dynamic tools for making data-driven financial decisions.
+
+FrontEnd Developer
+FinEdu
+Product Development and Launch:
+Led the design, development, and optimization of responsive user interfaces for a diverse portfolio of financial products using React, JavaScript, and other modern front-end technologies.
+
+
+
+Office: 515, Devika Tower, Chander Nagar, Ghaziabad, 201010
+(View in Google Map)
+Manufacturing: K-288, Site-V, Surajpur Industrial Area Kasna, Greater Noida (U.P.)- 201310
+(View in Google Map)
++91- 9811846214
++91- 9811357749
+info@coating-solution.com
+SOCIAL MEDIA
+Facebook-f Youtube Instagram Twitter

@@ -1,0 +1,69 @@
+Quotation Validations:
+
+
+Required:
+* Customer Name / Company name
+* Costomer Mobile / Email
+* 
+
+Optional:
+
+* 
+* 
+* 
+
+
+
+client_name
+client_mobile
+client_email
+client_address
+
+contact_person_name
+contact_person_email
+contact_person_phone
+contact_person_designation
+
+employee_id
+employee_name
+
+quotation_data{
+    quotation_amt
+    quotation_number:
+    quotation_id
+    quotation_date
+    product_type
+    conponents:[
+        {
+            item_slug: "gun_quotation"
+            item_name: "Gun Quotation"
+            item_unit_price: 2000
+            item_quantity: 2
+            item_total_price: 2000
+        }
+    ]
+}
+
+
+
+
+
+
+
+"__v": 0
+_id": "64fd3288dcd4a9a05d104ddb",
+
+
+When Saving->
+create->Quotation ID->
+create->Client ID->
+
+For Quotation:
+When Page Loads:
+    Get Total Quotation Number-> to create a quotation number
+    Get Total Clients Name-> to Select form a old client
+if not client is selected->
+    on submit check 
+        is client exist in db
+            YES: Attach the quotation to that client
+            NO: add the clcint in client DB

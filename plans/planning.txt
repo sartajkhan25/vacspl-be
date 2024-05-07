@@ -1,0 +1,167 @@
+Enquiry 
+1. Get all leads
+    GET: /api/leads
+2. Get lend details
+    GET: /api/leads/:id
+3. Search leads
+    POST: /api/leads
+4. Add leads
+    POST: /api/add-lead
+5. Add leads by json
+    POST: /api/add-bulk
+
+Orders
+1. Get all orders
+2. Search orders
+3. Get order details
+
+User: 
+1. Get all users
+2. Get user details
+3. Create user
+4. Login user
+5. Authonticate user
+6. Getsales
+
+Revenue
+1. Sale
+
+Database backup 
+
+Dashboard -> overall
+    Sales -> Graph & table
+        Month Wise
+        Week Wise
+        Day Wise
+    Number of Leads generated -> total / area wise / product wise
+        this month
+        this week
+        last two/three/six months
+    Number of Visits -> total / area wise / product wise
+        this month
+        this week
+        last two/three/six months
+    Number of Leads Created from Different Sources-> total / area wise / product wise
+        this month
+        this week
+        last two/three/six months
+    Number of Quotation Sent -> total / area wise / product wise
+        this month
+        this week
+        last two/three/six months
+    Total Amount of Quotation Sent
+        maximum amount lead
+
+Sales Team
+    Sales progress of all Sales Person-> to check the graph is increasing or decreasing
+        Monthly
+        : every sales person will have its graph
+    Number of Orders made by Sales Persons-> A:23,B:34
+        this month
+        this week
+        last two/three/six months
+    Quantity of powder - saled by Sales Persons-> A:23,B:34
+        this month
+        this week
+        last two/three/six months
+    Amount of powder/equipments - saled by Sales Persons-> A:23,B:34
+        this month
+        this week
+        last two/three/six months
+    Number of new added customer- by Sales Persons-> A:23,B:34
+        this month
+        this week
+        last two/three/six months
+    Number of Lead entertained- by Sales Persons-> A:23,B:34
+        this month
+        this week
+        last two/three/six months
+    Pending Payments-> Sales Person wise
+    Not converted customers - with quotation amount
+        this month
+        last two/three/six months
+    
+        
+Individual Sales Person:
+    Basic Information
+    Is good/Best/Poor Employee-> Should have a scale for that
+
+    Overall:
+        Total Revenue Generated till now
+        Total cost to compoany till now
+
+    Past Orders - list
+        this month
+        this week
+        last two/three/six months
+    number of orders/revenue done from a client by him
+        if clicks on a client that gets all the Information about the client-> past orders, quantity, who served previously
+    Pending Payment List of Clients
+    Currently on going clients list
+    newly added custimer list - date wise
+    comparasion btw previous month and next month projection
+
+    not converted customers - with quotation amount
+        last two/three/six months
+
+
+
+Leads table
+Orders table
+Clients table
+user table
+Service Report table
+Quotation Generation table
+
+
+
+Plan to development:
+
+1. Backend
+    1. Quotations table-DONE
+        Create Quotation
+        Get Single Quotation
+        Get All Quotation
+        Delete Single Quotation
+
+
+    2. Service Report table
+    3. Client/Customer table
+    4. User/Employee Table
+    5. Lead Table
+    6. pages views
+2. Frontend
+
+pages
+    AMC
+    Q plants
+    Q components
+
+
+Create Quotation->
+    When Page loads
+        Get all quotation/ Get last quotation number->done
+        unique quotation number craeted.
+
+    create lead database:
+        api contracts
+
+        
+on VACSPL.IN
+    Now for CRM, we have our Frontend on a different server (FREE)
+    Now for CRM, we have our Backend on a different server (PAID/AWS)
+Quotetion Database Created on Server.
+    * Now we can save the quotation details on server.
+    * Quotation Unique identifier Number (Quotation Number) Functioanlity is craeted. This will be generated automatically and can be tracked.
+    * Quotation List section is created in CRM.
+    * We are also tracking who is creating the quotation.
+
+Client Database Created on Server.
+    * Now we can save the Client details on server.
+    * When someone is creating the quotation, the client will be saved at different location
+    * Client Unique identifier Number Functioanlity is craeted. This will be generated automatically and can be tracked.
+    * We are also tracking who is creating the Client.
+    * These are for the those clients for whom the quotation are generated.
+    * We will add other as well in future
+
+
